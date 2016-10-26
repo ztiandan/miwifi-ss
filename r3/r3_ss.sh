@@ -12,7 +12,8 @@ if [[ $EUID -ne 0 ]]; then
 fi
 cd /tmp
 rm -f shadowsocks_r3.tar.gz
-wget https://raw.githubusercontent.com/blademainer/miwifi-ss/master/r3/shadowsocks_r3.tar.gz
+
+curl -O https://raw.githubusercontent.com/ztiandan/miwifi-ss/master/r3/shadowsocks_r3.tar.gz
 tar zxf shadowsocks_r3.tar.gz
 
 # install shadowsocks ss-redir to /data/usr/sbin
