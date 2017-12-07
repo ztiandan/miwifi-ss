@@ -13,7 +13,7 @@ fi
 cd /tmp
 rm -f shadowsocks_r3.tar.gz
 
-curl -O https://raw.githubusercontent.com/ztiandan/miwifi-ss/master/r3/shadowsocks_r3.tar.gz
+curl -O -k https://raw.githubusercontent.com/ztiandan/miwifi-ss/master/r3/shadowsocks_r3.tar.gz
 tar zxf shadowsocks_r3.tar.gz
 
 # install shadowsocks ss-redir to /data/usr/sbin
